@@ -5,7 +5,7 @@ end_date = datetime(datetime.now().year, 12, 31).strftime('%Y-%m-%d')
 hotel_id = 313
 company_id = 998
 room_type_id = 1478
-
+#COMMENT
 queries = {
     "hotel_booking": f"""
                         WITH max_created_dates AS (
